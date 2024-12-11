@@ -229,11 +229,13 @@ section ul li {
 
 .concept-img {
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     padding: 24px 0;
+    height: 112px;
     margin-bottom: 8px;
 }
 
