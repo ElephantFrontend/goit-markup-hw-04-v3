@@ -334,6 +334,8 @@ section ul li {
 .socials-list {
     display: flex;
     gap: 16px;
+    padding: 0;
+    list-style-type: none;
 }
 
 .socials-item {
