@@ -110,6 +110,7 @@ address {
     font-weight: 400;
     line-height: 24px;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts--link:hover, .contacts--link:focus {
@@ -318,10 +319,6 @@ section ul li {
     margin-right: 120px;
 }
 
-.socials {
-
-}
-
 .socials-title {
     font-size: 16px;
     font-weight: 500;
@@ -351,6 +348,7 @@ section ul li {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover, .socials-link:focus {
