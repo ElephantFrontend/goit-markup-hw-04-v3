@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header .logo {
+    color: #2E2F42;
+    margin-right: 76px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-navigate {
+    display: flex;
+    align-items: center;
+}
+
+.main-navigate--list {
+    gap: 40px;
+}
+
+.main-navigate--link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2E2F42;
+    display: block;
+    padding: 24px 0;
+}
+
+.main-navigate--link:hover {
+    color: #404BBF;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts--list {
+    gap: 40px;
+}
+
+.contacts--link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434455;
+}
+
+.contacts--link:hover, .contacts--link:focus {
+    color: #404BBF;
+}
+
+.logo {
+    display: inline-block;
+    color: #F4F4FD;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #2E2F42;
+    padding: 188px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.hero-button {
+    min-width: 169px;
+    background-color: #4D5AE5;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 120px 0;
+    background-color: #FFFFFF;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #2E2F42;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    list-style-type: none;
+    flex: 0 1 calc(25% - 18px);
+}
+
+.main-text {
+    margin: 0;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 #2E2F4214;
+    border-radius:  0 0 4px 4px;
+    overflow: hidden;
+}
+
+.card-image {
+    object-fit: contain;
+    width: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team .subtitle, .team .main-text {
+    text-align: center;
+}
+
+.team .card-content {
+    padding: 32px 0;
+}
+
+.portfolio-list {
+    row-gap: 48px;
+}
+
+.portfolio-list .card {
+    flex: calc((100% - 48px) / 3);
+    box-shadow: none;
+}
+
+.portfolio .card-content {
+    align-items: start;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2E2F42;
+    padding: 100px 0 100px 0;
+}
+
+.footer .logo {
+    margin-bottom: 16px;
+}
+
+.footer--text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD;
+    max-width: 264px
+}
