@@ -276,6 +276,14 @@ section ul li {
     padding: 32px 0;
 }
 
+.team .main-text {
+    margin-bottom: 8px;
+}
+
+.team .socials-list {
+    gap: 24px;
+}
+
 .portfolio-list {
     row-gap: 48px;
 }
