@@ -289,7 +289,7 @@ section ul li {
     justify-content: center;
 }
 
-.team .socials-link:hover, .team.socials-link:focus {
+.team .socials-link:hover, .team .socials-link:focus {
     background-color: #404bbf;;
 }
 
@@ -300,6 +300,29 @@ section ul li {
 .portfolio-list .card {
     flex: calc((100% - 48px) / 3);
     box-shadow: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.portfolio-list .card:hover {
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-list .card-header {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-list .card-header .main-text {
+    color: #F4F4FD;
+    position: absolute;
+    top: 0;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio .card-content {
