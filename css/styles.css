@@ -150,6 +150,8 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero .container {
@@ -371,6 +373,7 @@ section ul li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 0;
     margin-bottom: 16px;
 }
 
